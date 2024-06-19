@@ -14,6 +14,7 @@ import java.util.Map;
 
 public class DataBase {
     private String dbFile;
+    /*I know this is bad, but i dont care*/
     private static final String SECRET_KEY = "mySecretKey12345";
     private Map<String, String> data;
 
